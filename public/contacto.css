@@ -1,0 +1,79 @@
+
+ .contactos{
+    background-color: white;
+    width: 90%;
+    margin:auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    border-radius: 13px;
+    padding:20px;
+    padding-top:50px;
+    padding-bottom:50px;
+    color:rgb(45, 45, 92);
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 17px;
+}
+
+.contactos h4{
+    font-weight:bold;
+}
+ .contactos h5{
+    color:rgb(186, 55, 55);
+}
+
+.fotografias{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fotografias img{
+    width: 340px;
+    height:340px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+/* AQUI COMIENZA LA REPETICION DEL CODIGO 2 */
+
+@media screen and (min-width: 600px){
+    .contactos{
+        background-color: white;
+        width: 80%;
+        margin:auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 13px;
+        padding:20px;
+        color:rgb(45, 45, 92);
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 25px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    
+    .contactos h4{
+        font-weight:bold;
+    }
+     .contactos h5{
+        color:rgb(186, 55, 55);
+    }
+    
+    .fotografias{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .fotografias img{
+        width: 500px;
+        height:500px;
+        border-radius: 8px;
+        margin-top: 30px;
+    }
+}
+
