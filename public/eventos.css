@@ -1,68 +1,72 @@
 
- .side .eventos{
+ .side-division .tarjeta-eventos{
+    font-family: 'Oswald', sans-serif;
     padding-top:40px;
     text-align: center;
 }
+.side-division .tarjeta-eventos h3{
+    color: rgb(111, 43, 113);
+    font-size: 25px;
+}
 
-.eventos img{
+.tarjeta-eventos img{
      width: 100%;
      height:auto;
      border-radius: 8px;
 }
 
-.imagenes{
-    padding:12px;
+/* Comienza main division */
+
+.main-division{
     text-align: left;
 }
 
-.imagenes h2{
-    font-size: 27px;
-    text-align: center;
+.main-division h2{
     margin-top: 15px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
 }
 
-.imagenes .recuerdos{
-    font-size: 20px;
+.main-division .tarjeta-recuerdos{
+    font-size: 22px;
 }
 
-.imagenes .recuerdos h3{
+.main-division .tarjeta-recuerdos h3{
     text-align: center;
     color: rgb(111, 43, 113);
-    font-size: 18px;
+    font-size: 22px;
 }
 
 /* AQUI COMIENZA LA REPETICION DEL CODIGO 2 */
 
 @media screen and (min-width: 600px){
 
-    .side .eventos{
-        padding:20px;
-        padding-top:60px;
-        font-size: 22px;
-        text-align: center;
-    }
-
-    .eventos img{
-        width: 100%;
-         height:auto;
-         border-radius: 8px;
-    }
-    
-    .imagenes{
-        padding:45px;
-        padding-bottom: 40px;
-        text-align: left;
+    .side-division .tarjeta-eventos{
+        font-family: 'Oswald', sans-serif;
         font-size: 20px;
     }
 
-    .imagenes h2{
-        font-size: 33px;
-        text-align: center;
-        margin-top: 15px;
+    .side-division .tarjeta-eventos h3{
+        font-size: 35px;
     }
 
-    .imagenes .recuerdos{
+    .main-division{
         font-size: 30px;
     }
+
+    .main-division h2{
+        font-size: 33px;
+    }
+
+    .main-division .tarjeta-recuerdos h3{
+        font-size: 30px;
+    }
+
+    .main-division .tarjeta-recuerdos{
+        font-size: 30px;
+    }
+
+    
 
 }

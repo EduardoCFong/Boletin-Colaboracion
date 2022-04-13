@@ -1,49 +1,40 @@
-.boletin{
+.tarjeta-boletin{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap:25px;
-    padding-top: 30px;
-    font-size: 19px;
-    margin:auto;
+    gap:20px;
+    text-align: left;
+    font-size: 20px;
 }
 
-.boletin h1{
-    font-size: 27px;
-    padding-left: 22px;
+.tarjeta-boletin h2{
+    font-size: 33px;
 }
 
-.boletin .salmo{
+.tarjeta-boletin .salmo{
     text-align: center;
-    font-size: 12px;
     font-style: italic;
     width: 100%;
+    font-size: 12px;
 }
 
-.boletin .salmo h3{
+.tarjeta-boletin .salmo h3{
     text-align: center;
 }
 
-.boletin img{
+.tarjeta-boletin img{
     width: 100%;
     height: auto;
-}
-.ofrendas h3{
-    text-align: center;
-    color: rgb(111, 43, 113);
-    padding-top: 30px;
-}
-.ofrendas p{
-    text-align: center;
-    color: rgb(111, 43, 113);
+    border-radius: 8px;
 }
 
-.ofrendas .sobre{
-    padding:30px;
-    text-align: left;
+/* Sobre ofrendas EXPLICACION */
+
+.tarjeta-sobre{
+    font-size: 19px;
 }
 
-.aGiving{
+.boton-aGiving{
     background-color: rgb(185, 71, 71);
     border: 2px solid white;
     width: 60%;
@@ -51,96 +42,48 @@
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
     margin-bottom: 40px;
-}
-
-h4{
     text-align: center;
-    color:rgb(74, 60, 155);
-    margin-bottom: 30px;
 }
 
-.explicaciongiving{
-    padding:20px;
-    padding-bottom: 30px;
-    text-align: left;
+.tarjeta-explicaciongiving{
+    font-size: 19px;
 }
 
 /* AQUI COMIENZA LA REPETICION DEL CODIGO 2 */
 
 @media screen and (min-width: 600px){
-    
-    .boletin{
-        font-size: 28px;
-        text-align: left;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap:25px;
-        padding-left: 50px;
-        padding-top: 50px;
+
+    .tarjeta-boletin{
+        font-size: 33px;
+        gap:30px;
     }
 
-    .boletin h1{
-        font-size: 40px;
-        padding-left: 45px;
+    .tarjeta-boletin h2{
+        font-size: 48px;
     }
 
-    .boletin .salmo{
-        font-size: 17px;
-        font-style: italic;
-        width: 99%;
-    }
-    
-    .boletin .salmo h3{
-        padding-right: 40px;
-        font-family: sans-serif;
-    }
-    
-    .boletin img{
-        width: 100%;
-        height: auto;
-    }
-    .ofrendas h3{
-        text-align: center;
-        color: rgb(111, 43, 113);
-        padding-top: 30px;
-    }
-    .ofrendas p{
-        text-align: center;
-        color: rgb(111, 43, 113);
-    }
-
-    .ofrendas .sobre{
-        padding-bottom: 30px;
-        text-align: left;
+    .tarjeta-boletin .salmo{
         font-size: 20px;
     }
 
-    .aGiving{
-        background-color: rgb(185, 71, 71);
-        border: 2px solid white;
-        width: 40%;
-        margin:auto;
-        border-radius: 10px;
-        color: blue;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-size: 20px;
-        margin-bottom: 50px;
+    .tarjeta-sobre{
+        font-size: 25px;
     }
 
-    h4{
-        text-align: center;
-        color:rgb(74, 60, 155);
+    .boton-aGiving{
+       width: 40%;
     }
 
-    .explicaciongiving{
-        text-align: left;
-        font-size: 20px;
+    .tarjeta-explicaciongiving{
+        font-size:25px;
     }
-    
 }
     
+
+
+
+
+
+
+

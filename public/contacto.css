@@ -1,16 +1,26 @@
-
- .contactos{
-    padding:20px;
-    padding-top:50px;
-    padding-bottom:50px;
+.tarjeta-nota{
     text-align: center;
-    font-size: 17px;
+    font-size: 19px;
+    font-family: 'Oswald', sans-serif;
 }
 
-.contactos h4{
+img{
+    border-radius: 50%;
+    width: 80px;
+}
+ .tarjeta-contacto{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 19px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tarjeta-contacto h4{
     font-weight:bold;
 }
- .contactos h5{
+ .contacto h5{
     color:rgb(186, 55, 55);
 }
 
@@ -25,50 +35,20 @@
     width: 100%;
     height:auto;
     border-radius: 8px;
-    margin-top: 30px;
 }
 
 /* AQUI COMIENZA LA REPETICION DEL CODIGO 2 */
 
 @media screen and (min-width: 600px){
-    .blanco{
-        background-color: white;
-        width: 95%;
-        margin:auto;
-        margin-bottom: 30px;
-        margin-top: 20px;
-        padding:40px;
-        border-radius: 13px;
-        color:rgb(45, 45, 92);
-        font-family: sans-serif;
-    }
-    .contactos{
-        padding:20px;
-        text-align: center;
+    
+    .tarjeta-contacto{
         font-size: 25px;
-        padding-top: 70px;
-        padding-bottom: 70px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    img{
+        width: 110px;
     }
     
-    .contactos h4{
-        font-weight:bold;
-    }
-     .contactos h5{
-        color:rgb(186, 55, 55);
-    }
-    
-    .fotografias{
-        display:flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .fotografias img{
-        width: 100%;
-        height:auto;
-        border-radius: 8px;
-        margin-top: 30px;
-    }
 }
 

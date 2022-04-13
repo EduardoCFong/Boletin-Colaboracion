@@ -9,7 +9,6 @@
      height: 2000px;
  }
 
-
  .container{
      background-color: rgb(227, 202, 174);
      width: 390px;
@@ -19,12 +18,12 @@
  }
 
  /* Este hace la linea blanca divisisoria de item */
- .item{
+ .item-limite{
      border: 0.2px solid rgb(220, 219, 219);
  }
- /* Termina item todos hacen la rallita */
 
 /* HEADER INICIO */
+
 .encabezado{
     position:fixed;
     width:390px; 
@@ -82,102 +81,124 @@
     text-transform: uppercase;
 } */
 /* Termina Header y Navbar con encabezado */
-/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
+.fondo-blanco{
+    background-color: white;
+    color:rgb(45, 45, 92);
+    width: 95%;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:20px;
+    border-radius: 13px;
+    font-family: sans-serif;
+}
+
 /* Comienza side con cultos dentro */
 
-.side{
-    min-height: 200px;
+.side-division{
     height:auto;
     padding-top: 160px;
     font-family: 'Oswald', sans-serif;
 }
 
- .side h2{
+ .side-division h2{
      text-align: center;
      color: rgb(111, 43, 113);
      padding-top: 20px;
      font-family: 'Oswald', sans-serif;
      font-size: 30px;
-    }
- .side p{
+}
+
+ .side-division p{
     color: rgb(147, 68, 150);
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     font-size: 20px;
 }
 
-.blanco{
-    background-color: white;
-    width: 95%;
-    margin:auto;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    padding:40px;
-    border-radius: 13px;
-    color:rgb(45, 45, 92);
-    font-family: sans-serif;
+ .tarjeta-cultos{
+     display:flex;
+     flex-direction: column;
+     justify-content: space-between;
+     gap:20px;
+     font-size: 22px;
+     text-align: center;
 }
 
- .cultos{
-    font-size: 20px;
-    text-align: center;
-}
- .cultos h4{
-    color:rgb(186, 55, 55);
-}
-
-.cultos a{
-    color: white;
-    background-color: rgb(37, 37, 34);
-    padding: 10px;
+.tarjeta-cultos a{
+    background-color: red;
+    border: 2px solid black;
+    padding: 8px;
     border-radius: 10px;
-    border: 1px solid red;
+    font-size: 16px;
 }
 
-.cultos .aidelyn{
+.tarjeta-cultos .aidelyn{
     background-color: beige;
     border: 1px solid red;
-    padding: 5px;
-    width: 75%;
     border-radius: 10px;
     margin: auto;
+    padding: 7px;
+    width: auto;
+    font-size: 20px;
 }
 
-.cultos img{
-    width: 100%;
+.tarjeta-cultos img{
+     width: 95%;
      height:auto;
+     margin:auto;
      border-radius: 8px;
 }
 
 /* MAIN INICIO */
- .main{
+ .main-division{
+     color: rgb(111, 43, 113);
      min-height: 400px;
      height:auto;
-     padding: 20px;
+     /* width: 390px; */
+     margin:auto;
  }
 
- .main h3{
-     text-align: center;
-     color: rgb(111, 43, 113);
+ .main-division h2{
+     padding-top: 30px;
      padding-bottom: 30px;
+     text-align: center;
  }
 
- .main .fotos{
+ .main-division h3{
+     padding-top: 30px;
+     text-align: center;
+ }
+
+ .main-division h4{
+     text-align: center;
+ }
+
+ .main-division p{
+     padding-bottom: 20px;
+     text-align: center;
+     font-size: 23px;
+ }
+
+ .main-division .tarjeta-fotos{
+     margin-bottom: 15px;
      display:flex;
      flex-direction: column;
      justify-content: space-between;
-     gap: 20px;
+     gap: 10px;
  }
 
- .main .fotos img{
-     width: 100%;
+ .main-division .tarjeta-fotos img{
+     width: 95%;
+     margin:auto;
      height:auto;
      border-radius: 8px;
-
  }
  
  /* FOOTER INICIO */
- .footer{
+ .footer-division{
     background-color: rgb(104, 29, 29);
      padding: 25px;
      min-height: 200px;
@@ -185,155 +206,84 @@
      text-align: center;
      color:rgb(252, 252, 254);
      font-family: 'Oswald', sans-serif;
+     font-size: 14px;
     }
 
  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
- /* AQUI COMIENZA LA REPETICION DEL CODIGO 2 */
 
  @media screen and (min-width: 600px){
     .container{
-        background-color: rgb(227, 202, 174);
         width: 600px;
-        height: auto;
-        margin:auto;
-    }
-   
-    .item{
-        border: 0.2px solid rgb(220, 219, 219);
     }
    
    /* HEADER INICIO */
 
    .encabezado{
-    position:fixed;
-    width:600px; 
-}
+        width:600px; 
+    }
+
 
     .header{
-        background-color: rgb(69, 11, 11);
-        height: 90px;
         display:flex;
         justify-content: space-around;
         align-items: center;
         padding: 25px;
     }
-    .header .logo img{
-        width: 70px;
-        border-radius: 50%;
-    }
+
     .nombre{
-       color:white;
-       font-size: 20px;
+       font-size: 30px;
        display:flex;
        flex-direction: column;
-       justify-content: space-between;
     }
     titulo{
-       font-size: 21px;
-       text-align: center;
+       font-size: 28px;
     }
     direccion{
-        font-size: 16px;
-        text-align: center;
+        font-size: 18px;
     }
-   
-    .navbar{
-        background-color: rgb(104, 29, 29);
-        height: 50px;
-    }
-   
+
+
     ul{
         display:flex;
         justify-content: space-around;
-        padding-top: 12px;
+        padding-top: 7px;
         list-style: none;
     }
    
     a{
         color:white;
+        font-size: 20px;
         text-decoration: none;
     }
-   
-   /* SIDE INICIO */
-   .side{
-       min-height: 200px;
-       height:auto;
-       padding-top: 160px;
-       font-family: 'Oswald', sans-serif;
-    }
-   
-    .side h2{
-       text-align: center;
-        color: rgb(111, 43, 113);
-        padding-top: 20px
-       }
 
-    .side p{
-       color: rgb(147, 68, 150);
-       text-align: center;
-       padding-bottom: 20px;
-       font-size: 20px;
-   }
-   
-    .cultos{
-       margin-top: 20px;
-       padding:50px;
-       text-align: center;
+
+   /* SIDE INICIO */
+
+    .tarjeta-cultos{
        font-size: 22px;
    }
-    .cultos h4{
-       color:rgb(186, 55, 55);
+
+   .tarjeta-cultos img{
+       width: 90%;
+       margin:auto;
    }
 
-   .cultos .aidelyn{
-    background-color: beige;
-    border: 1px solid red;
-    padding: 5px;
-    width: 75%;
-    border-radius: 10px;
-    margin: auto;
-}
-   
-   .cultos img{
-       width: 100%;
-        height:auto;
-        border-radius: 8px;
+   .side-division p{
+       font-size: 25px;
    }
-   
+
+   .side-division h2{
+        font-size: 35px;
+   }
+
    /* MAIN INICIO */
-    .main{
-        min-height: 400px;
-        height:auto;
-        padding: 20px;
-    }
-   
-    .main h3{
-        text-align: center;
-        color: rgb(111, 43, 113);
-        padding-bottom: 40px;
-    }
-   
-    .main .fotos{
-        display:flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap:30px;
-    }
-   
-    .main .fotos img{
-        width: 100%;
-        height:auto;
-        border-radius: 8px;
-    }
+    
+   .main-division{
+       width: 600px;
+   }
 
-    /* FOOTER INICIO */
-    .footer{
-       background-color: rgb(104, 29, 29);
-        padding: 25px;
-        min-height: 200px;
-        height:auto;
-        text-align: center;
-        color:rgb(252, 252, 254);
-        font-family: 'Roboto', sans-serif;
+    .main-division .tarjeta-fotos{
+        gap:16px;
     }
+   
  }

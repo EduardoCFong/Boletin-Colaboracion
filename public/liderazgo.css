@@ -1,72 +1,26 @@
-.calendarios{
-    padding:20px;
-    padding-top:40px;
+.tarjeta-calendario{
     font-size: 18px;
     text-align: left;
 }
 
-.calendarios h2{
+.tarjeta-calendario h2{
     font-size: 22px;
 }
 
-.calendarios h4{
+.tarjeta-calendario h4{
     text-align: center;
-}
-
-.calendarios img{
-    width: 100%;
-     border-radius: 8px;
-}
-
-.main h3{
-    padding-bottom: 30px;
-}
-
-.recuerdos{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.picture .recuerdos img{
-    width: 330px;
-    height: auto;
-    padding-bottom: 20px;
 }
 
 /* AQUI COMIENZA LA REPETICION DEL CODIGO 2 */
 
 @media screen and (min-width: 600px){
     
-    .calendarios{
-        padding-top:60px;
-        padding-bottom: 40px;
-        font-size: 23px;
-        text-align: left;
-    }
-
-    .calendarios h2{
+    .tarjeta-calendario{
         font-size: 28px;
     }
-    
-    .calendarios img{
-        width: 100%;
-         border-radius: 8px;
+
+    .tarjeta-calendario h2{
+        font-size: 30px;
     }
-    
-    .main h3{
-        padding-bottom: 30px;
-    }
-    
-    .recuerdos{
-        display:flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .picture .recuerdos img{
-        width: 500px;
-        height: auto;
-        padding-bottom: 30px;
-    }
+
 }
