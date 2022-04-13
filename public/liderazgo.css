@@ -1,19 +1,19 @@
-.noticias{
-    background-color: white;
-    width: 90%;
-    margin:auto;
-    margin-top: 25px;
-    margin-bottom: 30px;
-    border-radius: 13px;
+.calendarios{
     padding:20px;
     padding-top:40px;
-    color:rgb(45, 45, 92);
-    font-family: sans-serif;
     font-size: 18px;
     text-align: left;
 }
 
-.noticias img{
+.calendarios h2{
+    font-size: 22px;
+}
+
+.calendarios h4{
+    text-align: center;
+}
+
+.calendarios img{
     width: 100%;
      border-radius: 8px;
 }
@@ -37,23 +37,19 @@
 /* AQUI COMIENZA LA REPETICION DEL CODIGO 2 */
 
 @media screen and (min-width: 600px){
-    .noticias{
-        background-color: white;
-        width: 80%;
-        margin:auto;
-        margin-top: 35px;
-        margin-bottom: 50px;
-        border-radius: 13px;
-        padding:50px;
+    
+    .calendarios{
         padding-top:60px;
         padding-bottom: 40px;
-        color:rgb(45, 45, 92);
-        font-family: sans-serif;
         font-size: 23px;
         text-align: left;
     }
+
+    .calendarios h2{
+        font-size: 28px;
+    }
     
-    .noticias img{
+    .calendarios img{
         width: 100%;
          border-radius: 8px;
     }
