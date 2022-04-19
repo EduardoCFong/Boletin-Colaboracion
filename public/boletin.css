@@ -1,3 +1,5 @@
+
+
 .tarjeta-boletin{
     display: flex;
     flex-direction: column;
@@ -28,6 +30,21 @@
     border-radius: 8px;
 }
 
+.himnario-online{
+    border: 1px solid blue;
+    width: 150px;
+    margin:auto;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.himnario-online a{
+    text-decoration: none;
+    color:blue;
+}
+
 /* Sobre ofrendas EXPLICACION */
 
 .tarjeta-sobre{
@@ -35,24 +52,41 @@
 }
 
 .boton-aGiving{
-    background-color: rgb(185, 71, 71);
-    border: 2px solid white;
-    width: 60%;
+    background: white;
+    border: 1px solid blue;
+    width: 40%;
     margin:auto;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 2px;
+    padding-bottom: 5px;
+    border-radius: 8px;
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     text-align: center;
+}
+
+.boton-aGiving a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color:blue;
+    font-size: 15px;
 }
 
 .tarjeta-explicaciongiving{
     font-size: 19px;
 }
 
+
+
+/* .footer-division .flex-footer{
+    margin-bottom: 20px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+
 /* AQUI COMIENZA LA REPETICION DEL CODIGO 2 */
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 700px){
 
     .tarjeta-boletin{
         font-size: 33px;
@@ -72,6 +106,10 @@
     }
 
     .boton-aGiving{
+       width: 30%;
+    }
+
+    .himnario-online{
        width: 40%;
     }
 

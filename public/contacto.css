@@ -39,11 +39,11 @@ img{
 
 /* AQUI COMIENZA LA REPETICION DEL CODIGO 2 */
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 700px){
     
     .tarjeta-contacto{
-        font-size: 25px;
-        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        font-family: sans-serif;
     }
 
     img{
