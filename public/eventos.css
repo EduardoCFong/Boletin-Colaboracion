@@ -1,10 +1,10 @@
 
- .side-division .tarjeta-eventos{
+ .tarjeta-eventos{
     font-family: 'Oswald', sans-serif;
     padding-top:40px;
     text-align: center;
 }
-.side-division .tarjeta-eventos h3{
+.tarjeta-eventos h3{
     color: rgb(111, 43, 113);
     font-size: 25px;
 }

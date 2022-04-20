@@ -7,37 +7,34 @@
  }
 
  body{
-     min-height: 1000px;
-     height: 2000px;
+     min-height: 800px;
+     height: auto;
  }
 
  .container{
      background-color: rgb(227, 202, 174);
+     font-family: 'Oswald', sans-serif;
      width: 390px;
      height: auto;
      margin:auto;
-     font-family: 'Oswald', sans-serif;
  }
 
- /* Este hace la linea blanca divisisoria de item */
  .item-limite{
      border: 0.2px solid rgb(220, 219, 219);
  }
 
-/* HEADER INICIO */
-
-.encabezado{
+ .encabezado{
     position:fixed;
     width:390px; 
-}
+ }
 
  .header{
      background-color: rgb(69, 11, 11);
-     height: 90px;
      display:flex;
      justify-content: space-between;
      align-items: center;
      padding: 25px;
+     height: 90px;
  }
 
  .header .logo img{
@@ -47,14 +44,13 @@
 
  .nombre{
     color:white;
-    font-size: 20px;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
  }
 
  titulo{
-    font-size: 21px;
+    font-size: 20px;
     text-align: center;
  }
  
@@ -64,9 +60,9 @@
  }
 
  .navegacion{
-     width:390px;
-     margin: auto;
      background-color: rgb(104, 29, 29);
+     width:390px;
+     margin:auto;
  }
 
  .navegacion ul{
@@ -79,16 +75,16 @@
  }
 
  .menu > li{
-     position:relative;
      display: inline-block;
+     position:relative;
      width: 20%;
  }
 
  .menu > li > a{
+     text-decoration: none;
      display: block;
      padding:6px 12px;
      color:white;
-    text-decoration: none;
  }
 
  .menu li a:hover{
@@ -96,79 +92,88 @@
     transition: all .3s ease;
  }
 
-.submenu{
-    position: absolute;
+ .submenu{
     background-color: rgb(104, 29, 29);
-    width: 100%;
+    position: absolute;
     display: none;
-}
+    width: 100%;
+ }
 
-.menu li:hover{
+ .menu li:hover{
     background-color: rgb(227, 202, 174);
     border: 1px solid rgb(104, 20, 20);
     transition: all .3s ease;
-}
+ }
 
-.submenu li a{
-    display: block;
+ .submenu li a{
     text-decoration: none;
-    padding:8px;
-    color:white;
     font-size: 14px;
-}
+    display: block;
+    color:white;
+    padding:8px;
+ }
 
-.menu li:hover .submenu{
+ .menu li:hover .submenu{
     display: visible;
     display: block;
     transition: all .3s ease;
-}
+ }
 
-.fondo-blanco{
+ .fondo-blanco{
     background: white;
     color:rgb(45, 45, 92);
     width: 95%;
     margin:auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top:10px;
     padding:20px;
-    padding-top:10px;
     border-radius: 13px;
-    font-family: sans-serif;
-}
-
-/* Comienza side con cultos dentro */
-
-.side-division{
-    height:auto;
-    padding-top: 160px;
     font-family: 'Oswald', sans-serif;
-}
+ }
 
- .side-division h2{
-     text-align: center;
-     color: rgb(111, 43, 113);
-     padding-top: 20px;
+ .side-division{
+    height:auto;
+    padding-top: 126px;
+    padding-bottom: 8px;
+    font-family: 'Oswald', sans-serif;
+ }
+
+ .side-division > h2{
      font-family: 'Oswald', sans-serif;
-     font-size: 30px;
-}
+     color:white;
+     text-align: center;
+     font-size: 32px;
+ }
 
- .side-division p{
-    color: rgb(147, 68, 150);
+ .side-division > p{
+    color:white;
     text-align: center;
-    padding-bottom: 20px;
     font-size: 20px;
-}
+ }
 
- .tarjeta-cultos{
+ .tarjeta-plus{
      display:flex;
      flex-direction: column;
      justify-content: space-between;
-     gap:20px;
-     font-size: 22px;
      text-align: center;
-}
+     color:rgb(67, 67, 143);
+     font-size: 18px;
+     gap:18px;
+ }
 
-.tarjeta-cultos a{
+ .tarjeta-plus h2{
+    font-family: 'Oswald', sans-serif;
+     color: rgb(111, 43, 113);
+     text-align: center;
+     font-size: 30px;
+ }
+ .tarjeta-plus h3{
+    font-family: 'Oswald', sans-serif;
+     color: rgb(111, 43, 113);
+     text-align: center;
+     font-size: 30px;
+ }
+
+ .tarjeta-plus a{
     background-color: white;
     border: 1px solid blue;
     color:blue;
@@ -176,9 +181,16 @@
     padding: 8px;
     border-radius: 10px;
     font-size: 16px;
-}
+ }
 
-.tarjeta-cultos .aidelyn{
+ .tarjeta-plus img{
+    border-radius: 8px;
+     width: 100%;
+     height:auto;
+     margin:auto;
+ }
+
+ .aidelyn{
     background-color: white;
     border: 1px solid rgb(195, 195, 159);
     border-radius: 10px;
@@ -186,70 +198,25 @@
     padding: 7px;
     width: auto;
     font-size: 20px;
-}
+ }
 
-.botones-juntos{
+ .lista-cumpleanos{
+    width: 250px;
+    margin:auto;
+    font-size: 14px;
+    text-align: justify;
+ }
+
+ .botones-juntos{
     display:flex;
     justify-content: space-around;
     align-items: center;
-}
+ }
 
-.tarjeta-cultos img{
-     width: 95%;
-     height:auto;
-     margin:auto;
-     border-radius: 8px;
-}
-
-.barcode img{
+ .barcode img{
     width: 150px;
-}
-
-/* MAIN INICIO */
- .main-division{
-     color: rgb(111, 43, 113);
-     min-height: 400px;
-     height:auto;
-     margin:auto;
  }
 
- .main-division h2{
-     padding-top: 30px;
-     padding-bottom: 30px;
-     text-align: center;
- }
-
- .main-division h3{
-     padding-top: 30px;
-     text-align: center;
- }
-
- .main-division h4{
-     text-align: center;
- }
-
- .main-division p{
-     padding-bottom: 20px;
-     text-align: center;
-     font-size: 23px;
- }
-
- .main-division .tarjeta-fotos{
-     margin-bottom: 15px;
-     display:flex;
-     flex-direction: column;
-     justify-content: space-between;
-     gap: 10px;
- }
-
- .main-division .tarjeta-fotos img{
-     width: 95%;
-     margin:auto;
-     height:auto;
-     border-radius: 8px;
- }
- 
- /* FOOTER INICIO */
  .footer-division{
     background-color: rgb(104, 29, 29);
      padding: 10px;
@@ -258,52 +225,43 @@
      color:rgb(252, 252, 254);
      font-family: sans-serif;
      font-size: 10px;
-    }
+ }
 
-    .footer-division .flex-footer{
-        padding:3px;
-        font-size: 8px;
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+ .flex-footer{
+    padding:3px;
+    font-size: 8px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+ }
 
-    .footer-division .flex-footer .logo-footer img{
-        border-radius:50%;
-        width: 40px;
-    }
+.logo-footer img{
+    border-radius:50%;
+    width: 40px;
+ }
 
-    .contador a{
-        color:white;
-        text-decoration: none;
-    }
-
- /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+ .contador a{
+    color:white;
+    text-decoration: none;
+ }
 
  @media screen and (min-width: 700px){
     .container{
         width: 700px;
     }
    
-   /* HEADER INICIO */
-
    .encabezado{
         width:700px; 
     }
 
-
     .header{
-        display:flex;
         justify-content: space-around;
-        align-items: center;
-        padding: 25px;
     }
 
     .nombre{
        font-size: 30px;
-       display:flex;
-       flex-direction: column;
     }
+
     titulo{
        font-size: 28px;
     }
@@ -329,49 +287,43 @@
         font-size: 18px;
     }
 
-
-
-   /* SIDE INICIO */
-
-    .tarjeta-cultos{
-       font-size: 22px;
-   }
-
-   .tarjeta-cultos img{
-       width: 90%;
-       margin:auto;
-   }
+   .side-division{
+        padding-top: 135px;
+        padding-bottom: 12px;
+    }
 
    .side-division p{
        font-size: 25px;
-   }
+    }
 
    .side-division h2{
         font-size: 35px;
-   }
+    }
 
-   /* MAIN INICIO */
-    
-   .main-division{
-       width: 700px;
-   }
+   .tarjeta-plus{
+        font-size: 22px;
+    }
 
-    .main-division .tarjeta-fotos{
-        gap:16px;
+    .tarjeta-plus img{
+        width: 100%;
+        margin:auto;
     }
 
     .barcode img{
         width: 230px;
     }
 
+    .lista-cumpleanos{
+        font-size: 20px;
+    }
 
-    .footer-division .flex-footer{
+    .flex-footer{
         padding:10px;
         font-size: 14px;
         justify-content: space-around;
     }
 
-    .footer-division .flex-footer .logo-footer img{
+    .logo-footer img{
         border-radius: 50%;
         width: 80px;
     }

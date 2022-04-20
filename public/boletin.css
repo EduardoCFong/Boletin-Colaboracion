@@ -1,16 +1,18 @@
-
-
 .tarjeta-boletin{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap:20px;
+    padding:20px;
     text-align: left;
     font-size: 20px;
 }
 
-.tarjeta-boletin h2{
-    font-size: 33px;
+.tarjeta-boletin > h3{
+    color: rgb(111, 43, 113);
+    text-align: center;
+    font-size: 35px;
+
 }
 
 .tarjeta-boletin .salmo{
@@ -45,52 +47,12 @@
     color:blue;
 }
 
-/* Sobre ofrendas EXPLICACION */
-
-.tarjeta-sobre{
-    font-size: 19px;
-}
-
-.boton-aGiving{
-    background: white;
-    border: 1px solid blue;
-    width: 40%;
-    margin:auto;
-    padding: 2px;
-    padding-bottom: 5px;
-    border-radius: 8px;
-    margin-top: 10px;
-    margin-bottom: 25px;
-    text-align: center;
-}
-
-.boton-aGiving a{
-    text-decoration: none;
-    font-family: sans-serif;
-    color:blue;
-    font-size: 15px;
-}
-
-.tarjeta-explicaciongiving{
-    font-size: 19px;
-}
-
-
-
-/* .footer-division .flex-footer{
-    margin-bottom: 20px;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-} */
-
-/* AQUI COMIENZA LA REPETICION DEL CODIGO 2 */
-
 @media screen and (min-width: 700px){
 
     .tarjeta-boletin{
         font-size: 33px;
         gap:30px;
+        padding:50px;
     }
 
     .tarjeta-boletin h2{
@@ -101,21 +63,6 @@
         font-size: 20px;
     }
 
-    .tarjeta-sobre{
-        font-size: 25px;
-    }
-
-    .boton-aGiving{
-       width: 30%;
-    }
-
-    .himnario-online{
-       width: 40%;
-    }
-
-    .tarjeta-explicaciongiving{
-        font-size:25px;
-    }
 }
     
 

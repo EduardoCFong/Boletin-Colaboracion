@@ -1,0 +1,126 @@
+.tarjeta-calendario{
+    font-size: 18px;
+    text-align: left;
+}
+
+.tarjeta-calendario > h2{
+    color: rgb(111, 43, 113);
+    text-align: center;
+}
+.tarjeta-calendario > p{
+    color: rgb(111, 43, 113);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.caja-fe{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.link-fe-jesus{
+    border: 1px solid blue;
+    width: 100px;
+    border-radius: 8px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+}
+
+.link-fe-jesus a{
+    color:blue;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.link-doctrinas{
+    margin:auto;
+    width:200px;
+    display:flex;
+    justify-content: center;
+}
+
+.link-doctrinas a{
+    border: 1px solid blue;
+    color:blue;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo-escuela-sabatica img{
+    width: 200px;
+}
+
+.logo-escuela-sabatica{
+    text-align: center;
+}
+
+.tarjeta-sobre{
+    font-size: 19px;
+}
+
+.boton-aGiving{
+    background: white;
+    border: 1px solid blue;
+    width: 40%;
+    margin:auto;
+    padding: 2px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.boton-aGiving a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color:blue;
+    font-size: 15px;
+}
+
+.tarjeta-explicaciongiving{
+    font-size: 19px;
+}
+
+
+    .boton-aGiving{
+       width: 30%;
+    }
+
+    .himnario-online{
+       width: 40%;
+    }
+
+    .tarjeta-explicaciongiving{
+        font-size:19px;
+    }
+
+@media screen and (min-width: 700px){
+    
+    .tarjeta-calendario{
+        font-size: 28px;
+    }
+
+    .tarjeta-calendario h2{
+        font-size: 30px;
+    }
+
+    .tarjeta-sobre{
+        font-size: 29px;
+    }
+    .tarjeta-explicaciongiving{
+        font-size: 29px;
+    }
+
+}
