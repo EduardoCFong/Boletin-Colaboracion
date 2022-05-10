@@ -10,7 +10,7 @@
 .tarjeta-calendario > p{
     color: rgb(111, 43, 113);
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .caja-fe{
@@ -23,7 +23,7 @@
 }
 
 .link-fe-jesus{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100px;
     border-radius: 8px;
     text-align: center;
@@ -47,7 +47,7 @@
 }
 
 .link-doctrinas a{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     color:blue;
     text-decoration: none;
     border-radius: 8px;
@@ -58,6 +58,7 @@
 }
 
 .logo-escuela-sabatica img{
+    border-radius: 50%;
     width: 200px;
 }
 
@@ -71,7 +72,7 @@
 
 .boton-aGiving{
     background: white;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 40%;
     margin:auto;
     padding: 2px;
@@ -93,18 +94,31 @@
     font-size: 19px;
 }
 
+.boton-aGiving{
+    width: 30%;
+}
 
-    .boton-aGiving{
-       width: 30%;
-    }
+.himnario-online{
+    width: 40%;
+}
 
-    .himnario-online{
-       width: 40%;
-    }
+.tarjeta-explicaciongiving{
+    font-size:19px;
+}
 
-    .tarjeta-explicaciongiving{
-        font-size:19px;
-    }
+.almuerzo-fechas{
+    /* border:1px solid rgb(111, 43, 113); */
+    border-radius: 10px;
+    width: 80%;
+    padding:10px;
+    margin:auto;
+    text-align: left;
+}
+
+.cocina-texto{
+    text-align: left;
+}
+
 
 @media screen and (min-width: 700px){
     
@@ -123,4 +137,5 @@
         font-size: 29px;
     }
 
+    
 }

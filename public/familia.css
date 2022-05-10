@@ -1,19 +1,27 @@
 .albun-familia{
     width: 100%;
     height: auto;
-    /* display:flex;
-    justify-content: space-between; */
-    /* align-items: center; */
+    display:flex;
+    justify-content: space-between; 
+    gap:5px;
 }
 
-.albun-familia img{
-    width: 100px;
+/* .albun-familia img{
+    width: 100%;
     padding:5px;
+} */
+
+.tamano-foto{
+    width: 800px;
 }
 
-/* .albun-persona .foto-card img{
-    border: 1px dashed blue;
-    width: 49px;
-    height: 50px;
 
-} */
+.albun-persona{
+    width: 100%;
+    height: auto;
+    gap:5px;
+    display:flex;
+    justify-content: space-around; 
+}
+
+

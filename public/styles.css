@@ -112,6 +112,9 @@
     display: block;
     color:white;
     padding:8px;
+    /* border-top: 1px solid white; */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
  }
 
  .menu li:hover .submenu{
@@ -126,9 +129,10 @@
     width: 95%;
     margin:auto;
     margin-top:10px;
-    padding:20px;
+    padding:12px;
     border-radius: 13px;
     font-family: 'Oswald', sans-serif;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
  }
 
  .side-division{
@@ -158,7 +162,7 @@
      text-align: center;
      color:rgb(67, 67, 143);
      font-size: 18px;
-     gap:18px;
+     gap:10px;
  }
 
  .tarjeta-plus h2{
@@ -176,42 +180,105 @@
 
  .tarjeta-plus a{
     background-color: white;
-    border: 1px solid blue;
     color:blue;
     text-decoration: none;
-    padding: 8px;
+    padding: 6px;
     border-radius: 10px;
     font-size: 16px;
  }
 
  .tarjeta-plus img{
-    border-radius: 8px;
+     border-radius: 8px;
      width: 100%;
      height:auto;
      margin:auto;
  }
 
+ .sombra{
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 8px;
+ }
+
+ .ancho{
+     width: 65%;
+     padding:5px;
+     margin:auto;
+     text-align: center;
+ }
+
+ .pading{
+     padding:10px;
+ }
+
+ .top-padding-extra{
+     padding-top: 18px;
+ }
+
  .aidelyn{
     background-color: white;
-    border: 1px solid rgb(195, 195, 159);
+    /* border: 1px solid rgb(195, 195, 159); */
     border-radius: 10px;
     margin: auto;
-    padding: 7px;
+    padding: 10px;
     width: auto;
+    min-width: 300px;
     font-size: 20px;
  }
 
  .lista-cumpleanos{
     width: 250px;
     margin:auto;
+    font-size: 12px;
+    text-align: justify;
+ }
+ 
+ .lista-cumpleanos-dos{
+    width: 250px;
+    margin:auto;
+    font-size: 17px;
+    text-align: justify;
+ }
+
+ .lista-cumpleanos-tres{
+    width: 250px;
+    margin:auto;
     font-size: 14px;
     text-align: justify;
+ }
+
+ .reducir-imagen1 img{
+     width: 220px;
+     text-align: center;
+ }
+
+ .reducir-imagen img{
+     width: 150px;
+     text-align: center;
  }
 
  .botones-juntos{
     display:flex;
     justify-content: space-around;
     align-items: center;
+    padding:10px;
+ }
+
+ .jovenes-lideres{
+     display:flex;
+     gap:10px;
+     justify-content: space-around;
+     flex-wrap: wrap;
+ }
+
+ .jovenes-lideres img{
+     width: 100px; 
+ }
+
+ .jovenes-team{
+     display:flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
  }
 
  .barcode img{
@@ -220,7 +287,7 @@
 
  .footer-division{
     background-color: rgb(104, 29, 29);
-     padding: 10px;
+     padding: 12px;
      height:auto;
      text-align: center;
      color:rgb(252, 252, 254);
@@ -245,6 +312,34 @@
     color:white;
     text-decoration: none;
  }
+
+ .espacio{
+    padding:8px;
+}
+.lados{
+    padding: 0px 20px;
+}
+
+.menores{
+    border:1px solid rgb(202, 192, 222);
+    border-radius: 10px;
+    text-align: left;
+    padding: 12px;
+}
+.menoresCentro{
+    border:1px solid rgb(202, 192, 222);
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px 12px;
+    margin:auto;
+    min-width: 250px;
+}
+.menoresCentro p{
+    padding-bottom: 2px;
+}
+.menoresCentro a{
+    text-decoration:underline;
+}
 
  @media screen and (min-width: 700px){
     .container{
@@ -310,6 +405,24 @@
         margin:auto;
     }
 
+    .reducir-imagen1 img{
+        width: 400px;
+        text-align: center;
+    }
+     .reducir-imagen img{
+        width: 300px;
+        text-align: center;
+    } 
+   
+    .jovenes-lideres img{
+        width: 120px; 
+    }
+
+    .jovenes-lideres h2{
+        font-size: 66px;
+        margin: auto;
+    }
+   
     .barcode img{
         width: 230px;
     }
@@ -317,6 +430,25 @@
     .lista-cumpleanos{
         font-size: 20px;
     }
+
+    .lista-cumpleanos-dos{
+        font-size: 25px;
+     }
+
+    .lista-cumpleanos-tres{
+        font-size: 25px;
+     }
+
+    .cajas-flex{
+        gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cajonaso{
+        font-size: 25px;
+        padding:15px;
+     }
 
     .flex-footer{
         padding:10px;
@@ -328,5 +460,21 @@
         border-radius: 50%;
         width: 80px;
     }
+
+    .aidelyn{
+        padding: 20px;
+        width: auto;
+        min-width: 500px;
+        font-size: 20px;
+     }
+     .menoresCentro{
+        padding: 8px 12px;
+        margin:auto;
+        min-width: 350px;
+    }
+     .menores{
+         width: 65%;
+         margin:auto;
+     }
    
  }
