@@ -23,6 +23,13 @@ img{
  .contacto h5{
     color:rgb(186, 55, 55);
 }
+.dosfotos-contacto{
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+
 
 .fotografias{
     display:flex;
