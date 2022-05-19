@@ -16,10 +16,10 @@
 }
 
 .tarjeta-boletin .salmo{
-    text-align: center;
+    text-align: justify;
     font-style: italic;
     width: 100%;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .tarjeta-boletin .salmo h3{

@@ -34,11 +34,11 @@
      justify-content: space-between;
      align-items: center;
      padding: 25px;
-     height: 90px;
+     height: 75px;
  }
 
  .header .logo img{
-     width: 70px;
+     width: 55px;
      border-radius: 50%;
  }
 
@@ -137,7 +137,7 @@
 
  .side-division{
     height:auto;
-    padding-top: 126px;
+    padding-top: 111px;
     padding-bottom: 8px;
     font-family: 'Oswald', sans-serif;
  }
@@ -210,7 +210,11 @@
      padding:10px;
  }
 
- .top-padding-extra{
+ .padinLados{
+     padding:5px 11px;
+ }
+
+  .top-padding-extra{
      padding-top: 18px;
  }
 
@@ -320,15 +324,6 @@
     padding:1px;
     text-align: left;
 }
-.multipleImagen{
-    margin:auto;
-    padding: 10px;
-    width: 350px;
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap:20px;
-}
 
 .lados{
     padding: 0px 20px;
@@ -398,7 +393,7 @@
     }
 
    .side-division{
-        padding-top: 135px;
+        padding-top: 124px;
         padding-bottom: 12px;
     }
 
@@ -471,7 +466,7 @@
     }
 
     .logo-footer img{
-        border-radius: 50%;
+        border-radius: 60px;
         width: 80px;
     }
 
